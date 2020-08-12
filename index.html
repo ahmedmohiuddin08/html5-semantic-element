@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="semantic-main-element">
+    <header class="semantic-header-element">
+      <h2 class="logo">This is a header semantic element</h2>
+      <nav class="semantic-nav-element">
+        <ul>
+          <li><a href="#">This</a></li>
+          <li><a href="#">is</a></li>
+          <li><a href="#">nav</a></li>
+          <li><a href="#">Semantic</a></li>
+          <li><a href="#">element</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="semantic-section-element">
+      <div class="elements">
+        <h3>Semantic elements</h3>
+        <ol>
+          <li><code>article</code></li>
+          <li><code>aside</code></li>
+          <li><code>details</code></li>
+          <li><code>figcaption</code></li>
+          <li><code>figure</code></li>
+          <li><code>header</code></li>
+          <li><code>footer</code></li>
+          <li><code>main</code></li>
+          <li><code>mark</code></li>
+          <li><code>nav</code></li>
+          <li><code>section</code></li>
+          <li><code>summary</code></li>
+          <li><code>time</code></li>
+        </ol>
+      </div>
+    </section>
+    <section class="semantic-section-element">
+      <article class="semantic-article-element">
+        <h3>This is an article element</h3>
+        <p>A semantic element clearly describes both the meaning for both the browser and the developer.</p>
+        <p>The <code> article </code> element means an independant and self-contained content.</p>
+        <p><code>p</code> element is also a semantic element as it describes the content between these tags is a paragraph.</p>
+      </article>
+    </section>
+    <div class="aside">
+      <section class="semantic-section-element">
+        <h3>This is a semantic section element</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quaerat iure blanditiis
+          possimus saepe excepturi fugiat deserunt omnis, quae, eligendi, cupiditate, impedit ab adipisci?
+          Laboriosam pariatur amet quaerat nesciunt, dolore debitis, ad omnis a praesentium.
+        </p>
+      </section>
+      <aside class="semantic-aside-elements">
+        <h3>This is <code>aside</code> semantic element</h3>
+      </aside>
+    </div>
+    <section class="semantic-section-element">
+      <figure class="semantic-figure-element">
+        <img src="images/image-01.jpg" alt="Paris">
+        <figcaption class="semantic-figcaption-element">
+          This is a <code>figcaption</code> element. And the direct parent is <code>figure</code> element.
+        </figcaption>
+      </figure>
+    </section>
+    <h4><code>div</code> and <code>span</code> are non-semantic element.</h4>
+    <section class="display-block-element">
+      <h2>This is a <code>block</code> element</h2>
+      <p>All the <code>heading tag</code> are block level element. However, they can be converted into <code>inline-block</code> element
+        by using certain property in <code>css</code>.</p>
+      <p>Using <code>display</code> property and putting a value of <code>block</code> and <code>inline-block</code> will convert them
+        respectively.</p>
+      <span>Example:</span>
+      <h3>This is <code>h3</code> and a <code>block</code> element</h3>
+      <p>The example shown above are set default, <code>block</code>.</p>
+      <h3 style="display:inline-block">This is <code>h3</code> and a <code>inline-block</code> element</h3>
+      <p>But the example above are of <code>inline-block</code> elements, converted by using <code>style=""</code> attribute and
+        using <code>display:inline-block</code> property and value.</p>
+    </section>
+    <section class="margin">
+      <h2>Margin</h2>
+      <p>
+        <code>margin</code> is a <code>css</code> property and used to create space around the elements, outside the border of the element.
+      </p>
+      <p>
+        You can specify <code>margin</code> for each side using four individual properties.
+      </p>
+      These includes:
+      <ol>
+        <li><code>margin-top</code></li>
+        <li><code>margin-right</code></li>
+        <li><code>margin-bottom</code></li>
+        <li><code>margin-left</code></li>
+      </ol>
+      <div>
+        <ul>
+          <h4><code>margin</code> property can be set in one single line.</h4>
+          For exemple:
+          <li>
+            <code>
+            element {
+            margin: 10px 15px 20px 25px;
+            }
+            </code>
+            <p>
+              The first value represents <code>margin-top</code>. And the rest of the value
+              represents <code>margin-right</code>,
+              <code>margin-bottom</code> and <code>margin-left</code> respectively. Clockwise.
+            </p>
+          </li>
+          <li>
+            <code>
+              element {
+              margin: 10px 15px 20px;
+              }
+            </code>
+            <p>
+              In this case, the first value represents <code>margin-top</code>, the second value represents
+              <code>margin-right</code> and <code>margin-left</code> and the third value represents
+              <code>margin-bottom</code>.
+            </p>
+            </li>
+          <li>
+            <code>
+              element {
+              margin: 10px 15px;
+              }
+            </code>
+            <p>
+              And here the first value of the <code>margin</code> property represents <code>margin-top</code> and <code>margin-bottom</code> and the second
+              value represents <code>margin-left</code> and <code>margin-right</code>.
+            </p>
+          </li>
+          <li>
+            <code>
+              element {
+                margin: 25px;
+              }
+            </code>
+            <p>
+              This means that the value of 25px of <code>margin</code> will equally added around the element.
+            </p>
+          </li>
+          <li>
+            <p>
+              <code>margin:auto</code> will horizontally center the element within its container.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="padding">
+      <h2>Padding</h2>
+      <p>css <code>padding</code> property is used to generate space around an element, inside the border.</p>
+      <p>
+        You can specify <code>padding</code> for each side using four individual properties.
+      </p>
+      These includes:
+      <ol>
+        <li><code>padding-top</code></li>
+        <li><code>padding-right</code></li>
+        <li><code>padding-bottom</code></li>
+        <li><code>padding-left</code></li>
+      </ol>
+      <div>
+        <ul>
+          <h4><code>padding</code> property can be set in one single line.</h4>
+          For exemple:
+          <li>
+            <code>
+            element {
+            padding: 10px 15px 20px 25px;
+            }
+            </code>
+            <p>
+              The first value represents <code>padding-top</code>. And the rest of the value
+              represents <code>padding-right</code>,
+              <code>padding-bottom</code> and <code>padding-left</code> respectively. Clockwise.
+            </p>
+          </li>
+          <li>
+            <code>
+              element {
+              padding: 10px 15px 20px;
+              }
+            </code>
+            <p>
+              In this case, the first value represents <code>padding-top</code>, the second value represents
+              <code>padding-right</code> and <code>padding-left</code> and the third value represents
+              <code>padding-bottom</code>.
+            </p>
+            </li>
+          <li>
+            <code>
+              element {
+              padding: 10px 15px;
+              }
+            </code>
+            <p>
+              And here the first value of the <code>padding</code> property represents <code>padding-top</code> and <code>margin-bottom</code> and the second
+              value represents <code>padding-left</code> and <code>padding-right</code>.
+            </p>
+          </li>
+          <li>
+            <code>
+              element {
+                padding: 25px;
+              }
+            </code>
+            <p>
+              This means that the value of 25px of <code>padding</code> will equally added around the element.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
